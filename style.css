@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+  padding: 20px;
+}
+
+.wrapper {
+  background: #222;
+  width: 400px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 30px;
+}
+
+.wrapper .otp-box {
+  width: 85%;
+  background: #111;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .otp-box .otp {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 25px;
+}
+
+.wrapper .otp-box i {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wrapper .generate-btn {
+  display: block;
+  margin: 10px auto;
+  background: #4070f4;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 17px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
